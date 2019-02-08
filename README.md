@@ -1,4 +1,4 @@
-<p align="center"><img src="boltt.jpeg"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BolttCoin/SmartContract/master/boltt.jpeg"></p>
 
 
 # Boltt smart contract
