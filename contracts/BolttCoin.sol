@@ -706,6 +706,13 @@ contract BolttCoin is ReleasableToken, MintableToken, UpgradeableToken {
   }
 
   /**
+   * Get token chain type information
+   */
+  function getTokenChainType() public pure returns(string) {
+    return 'erc20-waves-dual';
+  }
+
+  /**
    * Update token information
    */
   function setTokenInformation(string memory _name, string memory _symbol) public onlyOwner {
